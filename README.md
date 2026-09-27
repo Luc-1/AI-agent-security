@@ -32,6 +32,16 @@ own public leaderboard/discussion:
 | Xander | SECRET_MARKER exfiltration | 89.700 | **0.000** |
 | Xander | non-marker email (CONFUSED_DEPUTY) | 11.915 | 11.915 |
 
+## Two submissions
+
+Both approaches behind the table above were actually submitted to the competition, and both are
+in this repo:
+
+- `attacks/secret_marker_exfiltration.py` — the SECRET_MARKER exfiltration path (95+ public, 0
+  private).
+- `attacks/confused_deputy_submission.py` — the non-marker CONFUSED_DEPUTY path (~27 public, ~27
+  private) described below, which is the one that actually holds up under hidden defenses.
+
 ## Final strategy: non-marker CONFUSED_DEPUTY
 
 `attacks/confused_deputy_submission.py` never touches `SECRET_MARKER`, `http.post`, or any
@@ -67,7 +77,8 @@ Full write-up: [`docs/algorithm_overview.md`](docs/algorithm_overview.md).
 
 ```
 attacks/
-  confused_deputy_submission.py   ← the submission
+  confused_deputy_submission.py   ← final submission: non-marker CONFUSED_DEPUTY
+  secret_marker_exfiltration.py   ← other submission: SECRET_MARKER exfiltration
 docs/
   algorithm_overview.md           ← full methodology write-up
 ```
