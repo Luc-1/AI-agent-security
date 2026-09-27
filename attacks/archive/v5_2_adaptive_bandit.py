@@ -1,3 +1,8 @@
+# ARCHIVED: early exploratory version, entirely SECRET_MARKER/EXFILTRATION-based.
+# This whole path was later found to score well publicly but zero out on the
+# private leaderboard -- see the repo README and docs/algorithm_overview.md.
+# Kept for the record of the search process, not as a working submission.
+#
 # v5_2_adaptive_bandit -- Experiment 1 from the v5.1 review: replaces the
 # "probe once, commit to a single template, periodically re-check" selector
 # with a continuous UCB1-style multi-armed bandit that re-scores all five

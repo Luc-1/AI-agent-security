@@ -1,3 +1,8 @@
+# ARCHIVED: early exploratory version, entirely SECRET_MARKER/EXFILTRATION-based.
+# This whole path was later found to score well publicly but zero out on the
+# private leaderboard -- see the repo README and docs/algorithm_overview.md.
+# Kept for the record of the search process, not as a working submission.
+#
 # v5_1_freqrecheck_guarded -- four additions on top of v4, all still pure
 # single-direction EXFILTRATION deep-dive:
 #   1. PERIODIC RE-CLASSIFICATION: every RECHECK_INTERVAL fill attempts,
